@@ -21,12 +21,16 @@ Evaluation using KITTI rader depth ground truth.
   
 #### Error
 
+  Network with contour prediction has better results perspective of Sq Rel and RMSE error compared to the one without contour prediction.
+
 ||Abs Rel|Sq Rel|RMSE|RMSE log|
 |-|-|-|-|-|
 |Without contour|0.101|0.956|4.902|0.175|
 |With contour|0.102|0.905|4.843|0.175|
 
 #### Accuracy
+
+  Both networks has similar results in perspective of accuracy.
   
 ||delta < 1.25|delta < 1.25^2|delta < 1.25^3|
 |-|-|-|-|
