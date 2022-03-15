@@ -7,6 +7,9 @@ CDNet is U-Net shaped network with CBAM and contour prediction.
 
 ### Model
 #### Encoder
+
+  Inpired by DenseNet, encoder is mainly composed of dense block, transition layer and CBAM.
+
 ![인코더구조](https://user-images.githubusercontent.com/48514976/158320497-982e4da1-8763-4251-b583-ce049d7f1e01.JPG)
 
 
