@@ -5,15 +5,14 @@ Method to improve monocular depth estimation accurcy using CBAM and contour pred
 ## CDNet (Contour Depth Network)
 CDNet is U-Net shaped network with CBAM and contour prediction.
 
-### Model
-#### Encoder
+### Encoder
 
   Inpired by DenseNet, encoder is mainly composed of dense block, transition layer and CBAM.
 
 ![인코더구조](https://user-images.githubusercontent.com/48514976/158320497-982e4da1-8763-4251-b583-ce049d7f1e01.JPG)
 
 
-#### Decoder
+### Decoder
 ![디코더 구조](https://user-images.githubusercontent.com/48514976/158320504-8025332f-d3e5-4a16-9635-0afc7747881a.PNG)
 
 
